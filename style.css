@@ -1,0 +1,62 @@
+/* Đặt kiểu cho toàn trang */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Section Đơn Hàng */
+section#don-hang {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.don-hang-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.don-hang {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: calc(50% - 20px);
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Section Tư Vấn và Liên Hệ */
+section {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label, form input, form textarea {
+    margin-bottom: 10px;
+}
